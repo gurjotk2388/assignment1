@@ -1,0 +1,334 @@
+/* Author: Gurjot Kaur | Student Number: 9042388*/
+
+/* Root element (html) */
+html {
+    font: italic small-caps normal 20px/1.15 Georgia, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    color: darkgray;
+}
+
+/* Body */
+body {
+    width: 100%;
+    max-width: 1300px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 0.125rem solid #ccc;
+}
+
+/* General padding and margin for main elements */
+main,
+aside,
+footer,
+header,
+p {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Main layout */
+main {
+    background-color: #ffffff;
+    border: 0.25rem solid darkblue;
+    width: 70%;
+    float: left;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Aside section */
+aside {
+    background-color: #fff3e0;
+    border: 0.25rem solid #ff8f00;
+    width: 30%;
+    float: right;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+    border-bottom: 0.5rem solid orange;
+    clear: both;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+
+/* Biography section */
+#biography {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    width: 55%;
+    float: left;
+}
+
+#biography h2 {
+    color: #0056b3;
+    text-align: center;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+#biography blockquote {
+    font-style: italic;
+    color: grey;
+    border-left: 4px solid darkblue;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+#biography p {
+    color: gray;
+    text-align: justify;
+}
+
+/* Image section */
+#image {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 45%;
+    float: right;
+}
+
+#image h2 {
+    color: darkblue;
+    text-align: center;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+#image figure {
+    border: 0.25rem solid green;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: inline-block;
+    background-color: #e9f5e9;
+}
+
+#image img {
+    border-radius: 1rem;
+}
+
+#image figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #333333;
+    margin-top: 0.5rem;
+}
+
+/* Famous quote section */
+#famous-quote {
+    background-color: #ffffff;
+    /* White background */
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    clear: both;
+}
+
+#famous-quote h2 {
+    color: #0056b3;
+    text-align: center;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+q {
+    font-style: italic;
+    color: #555555;
+    border: 2px solid #0056b3;
+    padding: 1rem;
+    display: inline-block;
+    margin: 1rem 0;
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+#famous-quote cite {
+    display: block;
+    text-align: right;
+    font-style: normal;
+    color: #333333;
+}
+
+/* Video section */
+#video {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#video h2 {
+    color: #0056b3;
+    text-align: center;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+#video iframe {
+    border: 0.25rem solid #0056b3;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+}
+
+/* External links section */
+#external-links {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+#external-links h2 {
+    color: darkblue;
+    text-align: center;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+#external-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#external-links li {
+    margin-bottom: 0.5rem;
+    line-height: 1.8;
+}
+
+#external-links a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+#external-links a:hover {
+    color: orange;
+}
+
+/* Contact form section */
+#Contact-Form {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+#Contact-Form h2 {
+    color: darkblue;
+    text-align: center;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+.contact-form {
+    display: block;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: block;
+    flex-direction: column;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 0.5rem;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+.form-control {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    height: 2rem;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #0056b3;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: orange;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+
+    #main-content,
+    #aside-content {
+        float: none;
+        width: 100%;
+    }
+
+    #biography,
+    #image {
+        float: none;
+        width: 100%;
+    }
+
+    footer {
+        clear: both;
+    }
+
+
+}
